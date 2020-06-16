@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#00a7e3</color>
-    <color name="colorPrimaryDark">#00a7e3</color>
+    <!-- change colorPrimary -->
+    <!--
+     Created by KHALID EL MRABTI&Khalid Coding on 16/06/20.
+     -->
+    <color name="colorPrimary">#31668e</color>
+    <color name="colorPrimaryDark">#31668e</color>
     <color name="colorAccent">#D81B60</color>
 </resources>

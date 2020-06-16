@@ -10,7 +10,9 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-
+/**
+ * Created by KHALID EL MRABTI&Khalid Coding on 16/06/20.
+ */
 class MyFirebaseMessagingService : FirebaseMessagingService() {
 
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
@@ -64,5 +66,10 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
     }
 
+
+    // add this function if you want MessagingService work smoothly
+    override fun onNewToken(p0: String) {
+        super.onNewToken(p0)
+    }
 
 }
