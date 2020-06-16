@@ -1,4 +1,4 @@
-Convert web site to android application using kotlin and android studio and webView technology
+Convert web site to android application using kotlin and webView technology
 
 Firebase and google-services.json
 Setup Firebase and Download the google-services.json and put it in the corresponding folder.
